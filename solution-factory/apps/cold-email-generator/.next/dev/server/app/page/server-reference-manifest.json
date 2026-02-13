@@ -1,0 +1,20 @@
+{
+  "node": {
+    "002bd9d67365f077f027f5b89dfe9ce9cf2301f735": {
+      "workers": {
+        "app/page": {
+          "moduleId": "[project]/apps/cold-email-generator/.next-internal/server/app/page/actions.js { ACTIONS_MODULE0 => \"[project]/apps/cold-email-generator/src/app/page.tsx [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false,
+          "exportedName": "$$RSC_SERVER_ACTION_0",
+          "filename": "apps/cold-email-generator/src/app/page.tsx"
+        }
+      },
+      "layer": {
+        "app/page": "rsc"
+      },
+      "exportedName": "$$RSC_SERVER_ACTION_0",
+      "filename": "apps/cold-email-generator/src/app/page.tsx"
+    }
+  },
+  "edge": {}
+}

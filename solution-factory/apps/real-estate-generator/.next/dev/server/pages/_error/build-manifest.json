@@ -1,0 +1,23 @@
+{
+  "devFiles": [],
+  "ampDevFiles": [],
+  "polyfillFiles": [],
+  "lowPriorityFiles": [],
+  "rootMainFiles": [],
+  "pages": {
+    "/_error": [
+      "static/chunks/b7266_next_dist_compiled_159b9991._.js",
+      "static/chunks/b7266_next_dist_shared_lib_8b1ade1b._.js",
+      "static/chunks/b7266_next_dist_client_f0cd0f3c._.js",
+      "static/chunks/b7266_next_dist_10f430ba._.js",
+      "static/chunks/b7266_next_error_9e8ba014.js",
+      "static/chunks/[next]_entry_page-loader_ts_0690a2af._.js",
+      "static/chunks/01e4c_react-dom_c6220206._.js",
+      "static/chunks/node_modules__pnpm_a1ac3f76._.js",
+      "static/chunks/[root-of-the-server]__302a46e7._.js",
+      "static/chunks/apps_real-estate-generator_pages__error_2da965e7._.js",
+      "static/chunks/turbopack-apps_real-estate-generator_pages__error_4dad45da._.js"
+    ]
+  },
+  "ampFirstPages": []
+}

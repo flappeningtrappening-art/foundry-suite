@@ -1,0 +1,44 @@
+{
+	"folders": [
+		{
+			"path": ".",
+			"name": "Foundry Suite (The Brain)"
+		},
+		{
+			"path": "../basic-glitch-art",
+			"name": "Basic Glitch Art (Creative R&D)"
+		},
+		{
+			"path": "../clockwork",
+			"name": "Clockwork (DAW Project)"
+		},
+		{
+			"path": "../neon-mesa",
+			"name": "Neon Mesa (Strategic HQ)"
+		},
+		{
+			"path": "../freelance-assets",
+			"name": "Freelance Assets (Marketplace)"
+		}
+	],
+	"settings": {
+		"files.exclude": {
+			"**/.git": true,
+			"**/.DS_Store": true,
+			"**/node_modules": true,
+			"**/venv": true,
+			"**/__pycache__": true
+		},
+		"editor.formatOnSave": true,
+		"python.analysis.extraPaths": [
+			"./solution-factory/services/analytic-service"
+		]
+	},
+	"extensions": {
+		"recommendations": [
+			"ms-python.python",
+			"esbenp.prettier-vscode",
+			"dbaeumer.vscode-eslint"
+		]
+	}
+}

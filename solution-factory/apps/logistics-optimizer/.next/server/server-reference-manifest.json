@@ -1,0 +1,21 @@
+{
+  "node": {
+    "40a91a39b09176b50112eaaea9164cee1155487f0d": {
+      "workers": {
+        "app/login/page": {
+          "moduleId": 37320,
+          "async": false,
+          "exportedName": "$$RSC_SERVER_ACTION_0",
+          "filename": "apps/logistics-optimizer/src/app/login/page.tsx"
+        }
+      },
+      "layer": {
+        "app/login/page": "rsc"
+      },
+      "filename": "apps/logistics-optimizer/src/app/login/page.tsx",
+      "exportedName": "$$RSC_SERVER_ACTION_0"
+    }
+  },
+  "edge": {},
+  "encryptionKey": "+flBmeQCF8DoWrtilK8bQklFtemr/+tdL39TXPq7MjY="
+}

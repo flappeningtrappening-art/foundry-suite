@@ -1,0 +1,15 @@
+{
+  "headers": {
+    "x-nextjs-stale-time": "300",
+    "x-nextjs-prerender": "1",
+    "x-next-cache-tags": "_N_T_/layout,_N_T_/shared-vault/layout,_N_T_/shared-vault/page,_N_T_/shared-vault"
+  },
+  "segmentPaths": [
+    "/_tree",
+    "/_full",
+    "/shared-vault/__PAGE__",
+    "/shared-vault",
+    "/_index",
+    "/_head"
+  ]
+}

@@ -1,0 +1,13 @@
+var R=require("../../chunks/ssr/[turbopack]_runtime.js")("server/app/_not-found/page.js")
+R.c("server/chunks/ssr/[root-of-the-server]__fe5f589a._.js")
+R.c("server/chunks/ssr/af9ea_next_dist_5398c5f3._.js")
+R.c("server/chunks/ssr/af9ea_next_dist_esm_build_templates_app-page_723978f1.js")
+R.c("server/chunks/ssr/[root-of-the-server]__85661af6._.js")
+R.c("server/chunks/ssr/[root-of-the-server]__926a1441._.js")
+R.c("server/chunks/ssr/af9ea_next_dist_29771e1b._.js")
+R.c("server/chunks/ssr/[root-of-the-server]__310eac26._.js")
+R.c("server/chunks/ssr/af9ea_next_dist_client_components_db84ebba._.js")
+R.c("server/chunks/ssr/af9ea_next_dist_client_components_builtin_forbidden_f3bcaaa9.js")
+R.c("server/chunks/ssr/apps_ghostforce-hub__next-internal_server_app__not-found_page_actions_5936cdd7.js")
+R.m(24402)
+module.exports=R.m(24402).exports

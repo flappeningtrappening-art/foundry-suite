@@ -1,0 +1,101 @@
+Preview Features (e.g., models)                      true*                                                                                              │
+│                                                                                                                                                            │
+│    Vim Mode                                             false                                                                                              │
+│                                                                                                                                                            │
+│  ● Disable Auto Update                                  false                                                                                              │
+│                                                                                                                                                            │
+│    Enable Prompt Completion                             false                                                                                              │
+│                                                                                                                                                            │
+│    Debug Keystroke Logging                              false                                                                                              │
+│                                                                                                                                                            │
+│    Enable Session Cleanup                               false                                                                                              │
+│                                                                                                                                                            │
+│    Output Format                                        Text                                                                                               │
+│                                                                                                                                                            │
+│    Hide Window Title                                    false                                                                                              │
+│                                                                                                                                                            │
+│    Show Status in Title                                 false                                                                                              │
+│                                                                                                                                                            │
+│    Hide Tips                                            false                                                                                              │
+│                                                                                                                                                            │
+│    Hide Banner                                          false                                                                                              │
+│                                                                                                                                                            │
+│    Hide Context Summary                                 false                                                                                              │
+│                                                                                                                                                            │
+│    Hide CWD                                             false                                                                                              │
+│                                                                                                                                                            │
+│    Hide Sandbox Status                                  false   
+
+Hide Model Info                                      false                                                                                              │
+│                                                                                                                                                            │
+│    Hide Context Window Percentage                       false*                                                                                             │
+│                                                                                                                                                            │
+│    Hide Footer                                          false                                                                                              │
+│                                                                                                                                                            │
+│    Show Memory Usage                                    true*                                                                                              │
+│                                                                                                                                                            │
+│    Show Line Numbers                                    false*                                                                                             │
+│                                                                                                                                                            │
+│    Show Citations                                       true*                                                                                              │
+│                                                                                                                                                            │
+│    Show Model Info In Chat                              true*                                                                                              │
+│                                                                                                                                                            │
+│    Use Full Width                                       true                                                                                               │
+│                                                                                                                                                            │
+│    Use Alternate Screen Buffer                          false                                                                                              │
+│                                                                                                                                                            │
+│    Incremental Rendering                                true                                                                                               │
+│                                                                                                                                                            │
+│    Disable Loading Phrases                              false                                                                                              │
+│                                                                                                                                                            │
+│    Screen Reader Mode                                   false                                                                                              │
+│                                                                                                                                                            │
+│    IDE Mode                                             false                                                                                              │
+│                                                                                                                                                            │
+│  ● Max Session Turns                                    -1            
+
+Compression Threshold                                0.5                                                                                                │
+│                                                                                                                                                            │
+│    Skip Next Speaker Check                              true                                                                                               │
+│                                                                                                                                                            │
+│    Memory Discovery Max Dirs                            200                                                                                                │
+│                                                                                                                                                            │
+│    Load Memory From Include Directories                 false                                                                                              │
+│                                                                                                                                                            │
+│    Respect .gitignore                                   true                                                                                               │
+│                                                                                                                                                            │
+│    Respect .geminiignore                                true                                                                                               │
+│                                                                                                                                                            │
+│    Enable Recursive File Search                         true                                                                                               │
+│                                                                                                                                                            │
+│    Disable Fuzzy Search                                 false                                                                                              │
+│                                                                                                                                                            │
+│    Enable Interactive Shell                             true                                                                                               │
+│                                                                                                                                                            │
+│    Show Color                                           false                                                                                              │
+│                                                                                                                                                            │
+│    Auto Accept                                          false                                                                                              │
+│                                                                                                                                                            │
+│    Use Ripgrep                                          true                                                                                               │
+│                                                                                                                                                            │
+│    Enable Tool Output Truncation                        true                                                                                               │
+│                                                                                                                                                            │
+│  ● Tool Output Truncation Threshold                     4000000     
+
+     Tool Output Truncation Lines                         1000                                                                                               │
+│                                                                                                                                                            │
+│    Enable Message Bus Integration                       true                                                                                               │
+│                                                                                                                                                            │
+│    Disable YOLO Mode                                    false                                                                                              │
+│                                                                                                                                                            │
+│    Allow Permanent Tool Approval                        false                                                                                              │
+│                                                                                                                                                            │
+│    Blocks extensions from Git                           false                                                                                              │
+│                                                                                                                                                            │
+│    Folder Trust                                         false                                                                                              │
+│                                                                                                                                                            │
+│    Enable Codebase Investigator                         true                                                                                               │
+│                                                                                                                                                            │
+│    Codebase Investigator Max Num Turns                  10                                                                                                 │
+│                                                                                                                                                            │
+│  ● Enable Introspection Agent                           false            

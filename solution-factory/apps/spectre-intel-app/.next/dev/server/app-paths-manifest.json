@@ -1,0 +1,8 @@
+{
+  "/api/digest/route": "app/api/digest/route.js",
+  "/api/reset-status/route": "app/api/reset-status/route.js",
+  "/case/[id]/page": "app/case/[id]/page.js",
+  "/dashboard/page": "app/dashboard/page.js",
+  "/login/page": "app/login/page.js",
+  "/page": "app/page.js"
+}

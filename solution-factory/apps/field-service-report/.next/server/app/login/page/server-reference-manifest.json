@@ -1,0 +1,20 @@
+{
+  "node": {
+    "402a0ffd9f63e0d1d03d73d3002193b73b0977255b": {
+      "workers": {
+        "app/login/page": {
+          "moduleId": 72794,
+          "async": false,
+          "exportedName": "$$RSC_SERVER_ACTION_0",
+          "filename": "apps/field-service-report/src/app/login/page.tsx"
+        }
+      },
+      "layer": {
+        "app/login/page": "rsc"
+      },
+      "exportedName": "$$RSC_SERVER_ACTION_0",
+      "filename": "apps/field-service-report/src/app/login/page.tsx"
+    }
+  },
+  "edge": {}
+}

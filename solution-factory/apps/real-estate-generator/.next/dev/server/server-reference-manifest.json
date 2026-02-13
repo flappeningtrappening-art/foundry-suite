@@ -1,0 +1,21 @@
+{
+  "node": {
+    "00a12988afb454336871d8e4a12b8e6435bcea6cf4": {
+      "workers": {
+        "app/page": {
+          "moduleId": "[project]/apps/real-estate-generator/.next-internal/server/app/page/actions.js { ACTIONS_MODULE0 => \"[project]/apps/real-estate-generator/src/app/page.tsx [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false,
+          "exportedName": "$$RSC_SERVER_ACTION_0",
+          "filename": "apps/real-estate-generator/src/app/page.tsx"
+        }
+      },
+      "layer": {
+        "app/page": "rsc"
+      },
+      "filename": "apps/real-estate-generator/src/app/page.tsx",
+      "exportedName": "$$RSC_SERVER_ACTION_0"
+    }
+  },
+  "edge": {},
+  "encryptionKey": "9A3GACdN1Gv1JJYM2P+4Y5Zd43n7ErrBYKQnJlDpefg="
+}

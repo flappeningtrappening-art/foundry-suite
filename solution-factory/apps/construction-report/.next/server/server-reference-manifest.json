@@ -1,0 +1,21 @@
+{
+  "node": {
+    "40013d34f07db92dc61f79638c24f0a0457d03b22a": {
+      "workers": {
+        "app/login/page": {
+          "moduleId": 17163,
+          "async": false,
+          "exportedName": "$$RSC_SERVER_ACTION_0",
+          "filename": "apps/construction-report/src/app/login/page.tsx"
+        }
+      },
+      "layer": {
+        "app/login/page": "rsc"
+      },
+      "filename": "apps/construction-report/src/app/login/page.tsx",
+      "exportedName": "$$RSC_SERVER_ACTION_0"
+    }
+  },
+  "edge": {},
+  "encryptionKey": "CxJyCS16/ZKEY2X4p9wHnAml9dCy8ZBmeWpo0M35a1I="
+}

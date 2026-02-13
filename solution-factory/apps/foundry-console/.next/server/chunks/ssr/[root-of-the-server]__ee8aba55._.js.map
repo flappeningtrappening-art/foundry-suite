@@ -1,0 +1,1 @@
+{"version":3,"sources":["../../../../../../apps/ghostforce-hub/src/app/dashboard/page.tsx"],"sourcesContent":["import { redirect } from \"next/navigation\";\n\nexport default function DashboardCatch() {\n    redirect(\"/\");\n}\n"],"names":[],"mappings":"oUAAA,EAAA,CAAA,CAAA,OAAA,IAAA,EAAA,EAAA,CAAA,CAAA,OAEe,SAAS,IACpB,CAAA,EAAA,EAAA,QAAA,AAAQ,EAAC,IACb"}

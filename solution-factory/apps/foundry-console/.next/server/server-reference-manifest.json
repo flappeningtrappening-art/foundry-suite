@@ -1,0 +1,21 @@
+{
+  "node": {
+    "404b543dbdda7a3a4d73f0761ea183e58d61e9ae3e": {
+      "workers": {
+        "app/login/page": {
+          "moduleId": 83783,
+          "async": false,
+          "exportedName": "$$RSC_SERVER_ACTION_0",
+          "filename": "apps/ghostforce-hub/src/app/login/page.tsx"
+        }
+      },
+      "layer": {
+        "app/login/page": "rsc"
+      },
+      "filename": "apps/ghostforce-hub/src/app/login/page.tsx",
+      "exportedName": "$$RSC_SERVER_ACTION_0"
+    }
+  },
+  "edge": {},
+  "encryptionKey": "uK90sUr1+IQLwCKi+7mOAERvmSNwsFlmGLj5OSLHCfI="
+}

@@ -1,0 +1,4 @@
+{
+  "/api/generate-listing/route": "app/api/generate-listing/route.js",
+  "/page": "app/page.js"
+}

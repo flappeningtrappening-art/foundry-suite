@@ -1,0 +1,15 @@
+{
+  "/_global-error/page": "/_global-error",
+  "/_not-found/page": "/_not-found",
+  "/api/analyze/route": "/api/analyze",
+  "/api/digest/route": "/api/digest",
+  "/api/root-cause/route": "/api/root-cause",
+  "/auth/auth-code-error/page": "/auth/auth-code-error",
+  "/auth/callback/route": "/auth/callback",
+  "/case/[id]/page": "/case/[id]",
+  "/dashboard/page": "/dashboard",
+  "/factory-stats/page": "/factory-stats",
+  "/login/page": "/login",
+  "/page": "/",
+  "/shared-vault/page": "/shared-vault"
+}
