@@ -27,9 +27,15 @@ app.post('/visualForgeFlow', async (req, res) => {
     const result: any = await response.json();
     const forensicLog = result.candidates[0].content.parts[0].text;
 
-    // POLLINATIONS.AI INTEGRATION (Zero-Waste Real Image Generation)
-    // We encode the high-fidelity vision and append aesthetic boosters
-    const encodedPrompt = encodeURIComponent(`${forensicLog.substring(0, 500)} | Tech-Noir style, high-saturation, 4k, cinematic lighting, detailed obsidian textures`);
+    // POKA-YOKE: Extract a clean subject for the image prompt (first sentence or subject line)
+    const cleanSubject = data.neuralSeed.substring(0, 100);
+    const infusionBoost = data.infusionType === 'BROBOTICUS_VOID' ? 'Cyberpunk robot, obsidian glass, void background' : 
+                         data.infusionType === 'NEON_SURREAL' ? 'Vivid neon colors, melting digital textures' : 
+                         'Intricate PCB circuitry, gold fractals';
+
+    // POLLINATIONS.AI INTEGRATION (Optimized)
+    const imagePrompt = `${cleanSubject}, ${infusionBoost}, tech-noir style, cinematic lighting, 4k, hyper-detailed`;
+    const encodedPrompt = encodeURIComponent(imagePrompt);
     const generatedImageUrl = `https://image.pollinations.ai/prompt/${encodedPrompt}?width=1024&height=1024&model=flux&nologo=true`;
 
     res.json({
