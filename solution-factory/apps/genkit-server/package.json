@@ -19,7 +19,9 @@
     "@genkit-ai/ai": "^0.9.12",
     "@genkit-ai/core": "^0.9.12",
     "@genkit-ai/googleai": "^1.28.0",
+    "@types/cors": "^2.8.19",
     "@types/express": "^5.0.6",
+    "cors": "^2.8.6",
     "express": "^5.2.1",
     "genkit": "^1.28.0",
     "zod": "^3.23.0"

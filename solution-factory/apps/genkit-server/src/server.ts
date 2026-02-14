@@ -1,7 +1,9 @@
 import express from 'express';
+import cors from 'cors';
 import * as process from 'process';
 
 const app = express();
+app.use(cors()); // Enable all CORS requests
 app.use(express.json());
 
 const PORT = 3400;
