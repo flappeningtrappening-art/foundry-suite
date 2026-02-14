@@ -23,7 +23,19 @@ app.post('/visualForgeFlow', async (req, res) => {
       body: JSON.stringify({ contents: [{ parts: [{ text: basePrompt }] }] })
     });
     const result: any = await response.json();
-    res.json({ result: { imageUrl: "https://basicglitch.art/assets/images/raw/guitarbot_og.png", forensicLog: result.candidates[0].content.parts[0].text } });
+    const forensicLog = result.candidates[0].content.parts[0].text;
+
+    // POLLINATIONS.AI INTEGRATION (Zero-Waste Real Image Generation)
+    // We encode the high-fidelity vision and append aesthetic boosters
+    const encodedPrompt = encodeURIComponent(`${forensicLog.substring(0, 500)} | Tech-Noir style, high-saturation, 4k, cinematic lighting, detailed obsidian textures`);
+    const generatedImageUrl = `https://image.pollinations.ai/prompt/${encodedPrompt}?width=1024&height=1024&model=flux&nologo=true`;
+
+    res.json({
+      result: {
+        imageUrl: generatedImageUrl,
+        forensicLog: forensicLog
+      }
+    });
   } catch (error: any) {
     res.status(500).json({ error: error.message });
   }
