@@ -18,8 +18,9 @@ async def run_forensic_chain(
     
     # 1. Generate Query Embedding
     embedding_response = litellm.embedding(
-        model="gemini/text-embedding-004",
-        input=query
+        model="gemini/gemini-embedding-001",
+        input=query,
+        output_dimensionality=768
     )
     query_embedding = embedding_response.data[0]['embedding']
     

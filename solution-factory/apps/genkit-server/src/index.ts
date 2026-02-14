@@ -3,11 +3,12 @@ import { realEstateFlow } from './flows/realEstateFlow';
 import { coldEmailFlow } from './flows/coldEmailFlow';
 import { visualForgeFlow } from './flows/visualForgeFlow';
 import { ai } from './genkit';
+import { ReflectionServer } from 'genkit';
 
-console.log('--- [GENKIT SERVER STARTUP] ---');
+console.log('--- [GENKIT 1.x PRODUCTION SERVER] ---');
 
 process.on('unhandledRejection', (reason, promise) => {
-  console.error('Unhandled Rejection at:', promise, 'reason:', reason);
+  console.error('Unhandled Rejection:', reason);
 });
 
 process.on('uncaughtException', (err) => {
@@ -16,16 +17,16 @@ process.on('uncaughtException', (err) => {
 
 async function startServer() {
   try {
-    console.log('--- [GENKIT SERVER STARTUP] ---');
-    console.log(`Using API Key: ${process.env.GOOGLE_GENAI_API_KEY ? 'FOUND (starts with ' + process.env.GOOGLE_GENAI_API_KEY.substring(0, 8) + ')' : 'MISSING'}`);
-    console.log('Initializing Flow Server on port 3400...');
+    console.log(`Using API Key: ${process.env.GOOGLE_GENAI_API_KEY ? 'FOUND' : 'MISSING'}`);
     
-    await ai.startFlowServer({
-      flows: [threadGeneratorFlow, realEstateFlow, coldEmailFlow, visualForgeFlow],
-      port: 3400
+    // Formal 1.x server initialization
+    const server = new ReflectionServer(ai, {
+      port: 3400,
     });
+
+    await server.start();
     
-    console.log('SUCCESS: Flow Server is running on port 3400.');
+    console.log('SUCCESS: Genkit 1.x Flow Server is running on port 3400.');
   } catch (error) {
     console.error('CRITICAL ERROR during Flow Server startup:', error);
     process.exit(1);
@@ -34,8 +35,5 @@ async function startServer() {
 
 startServer();
 
-// Keep the process alive indefinitely
-console.log('Starting persistence loop...');
-setInterval(() => {
-  // Silent heartbeat
-}, 30000);
+// Persist
+setInterval(() => {}, 60000);
