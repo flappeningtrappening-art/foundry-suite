@@ -59,7 +59,8 @@ app.post('/visualForgeFlow', async (req, res) => {
 
     const imagePrompt = `${cleanSubject}, ${infusionBoost}, tech-noir style, cinematic lighting, 4k, hyper-detailed`;
     const encodedPrompt = encodeURIComponent(imagePrompt);
-    const generatedImageUrl = `https://image.pollinations.ai/prompt/${encodedPrompt}?width=1024&height=1024&model=flux&nologo=true`;
+    const randomSeed = Math.floor(Math.random() * 1000000);
+    const generatedImageUrl = `https://image.pollinations.ai/prompt/${encodedPrompt}?width=1024&height=1024&model=flux&nologo=true&seed=${randomSeed}`;
 
     res.json({
       result: {
